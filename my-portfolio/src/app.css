@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+	--default-color: rgb(40, 41, 41);
+	--primary-color: rgb(69, 37, 164);
+	--primary-font-color: white;
+	--secondary-color: rgb(245, 51, 148);
+	--opacity-lightness: 80%;
+	--accent-color: rgb(69, 210, 242);
+	--ghost-font-color: rgb(40, 41, 41);
+	--link-font-color: rgb(69, 37, 164);
+	--link-color-none: 0%;
+	--footer-background: rgb(40, 41, 41);
+	--footer-h3: rgb(191, 188, 188);
+	--beige-color: #f8f1eb;
+}
+
+h1 {
+	font-size: 50px;
+	word-wrap: break-word;
+	margin-block: 2rem;
+}
+
+main {
+	margin-bottom: 10rem;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
