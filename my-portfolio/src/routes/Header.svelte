@@ -25,7 +25,7 @@
 	<!-- Desktop -->
 	<article id="desktop">
 		<figure class:active={$page.url.pathname === '/'}>
-			<a sveltekit:prefetch href="/"><img src="src/img/malkikon.svg" alt="" /></a>
+			<a sveltekit:prefetch href="/"><img src="src/img/logo.svg" alt="" /></a>
 		</figure>
 		<nav>
 			<ul>
@@ -44,9 +44,19 @@
 </header>
 
 <style>
+	header {
+		cursor: url(/src/img/cursor.svg);
+	}
+	a {
+		color: var(--nav-color);
+	}
 	img {
 		width: 90px;
 		padding-left: 1rem;
+	}
+
+	header {
+		margin-bottom: 30px;
 	}
 
 	header + * {
@@ -66,6 +76,10 @@
 		/* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
 		/* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
 		transition: all 0.6s ease-in-out;
+	}
+
+	.wrapper li {
+		margin-right: 4rem !important;
 	}
 
 	#active:checked ~ .wrapper {
@@ -91,7 +105,7 @@
 		/* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
 		/* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
 		transition: all 0.3s ease-in-out;
-		background: black;
+		background: var(--nav-color);
 	}
 
 	.menu-btn span,
@@ -147,7 +161,7 @@
 		font-size: 30px;
 		font-weight: 500;
 		padding: 5px 30px;
-		color: black;
+		color: var(--nav-color);
 		border-radius: 50px;
 		position: absolute;
 		line-height: 50px;
@@ -168,13 +182,13 @@
 	}
 
 	.wrapper ul li a:hover {
-		color: black !important;
+		color: white !important;
 	}
 
 	.wrapper ul li a:after {
 		position: absolute;
 		content: '';
-		background: white;
+		background: var(--nav-color);
 		/*background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);*/
 		/*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
 		width: 100%;
@@ -216,6 +230,7 @@
 	}
 
 	@media (min-width: 700px) {
+		.wrapper,
 		label {
 			display: none;
 		}

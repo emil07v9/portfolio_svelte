@@ -3,29 +3,38 @@
 @tailwind utilities;
 
 :root {
-	--default-color: rgb(40, 41, 41);
-	--primary-color: rgb(69, 37, 164);
-	--primary-font-color: white;
-	--secondary-color: rgb(245, 51, 148);
-	--opacity-lightness: 80%;
-	--accent-color: rgb(69, 210, 242);
-	--ghost-font-color: rgb(40, 41, 41);
-	--link-font-color: rgb(69, 37, 164);
-	--link-color-none: 0%;
-	--footer-background: rgb(40, 41, 41);
-	--footer-h3: rgb(191, 188, 188);
-	--beige-color: #f8f1eb;
+	--nav-color: #eb4d27;
+	--beige-color: #fff5f0;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+	font-family: 'Archivo', sans-serif;
+	letter-spacing: 0.1ch;
 }
 
 h1 {
-	font-size: 50px;
+	font-weight: 600;
+	font-size: 100px;
 	word-wrap: break-word;
 	margin-block: 2rem;
 }
 
 main {
 	margin-bottom: 10rem;
-	max-width: 1000px;
+	/* max-width: 1000px;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto; */
+}
+
+body {
+	cursor: url(/src/img/cursor.svg), auto;
+}
+
+label:hover,
+a:hover {
+	cursor: url(/src/img/hover.svg), auto;
 }

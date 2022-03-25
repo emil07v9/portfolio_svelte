@@ -10,7 +10,7 @@
 	<section>
 		<h3>SOCIAL</h3>
 		<ul>
-			<li><img src="/src/img/LI-in-Bug.png" alt="" /></li>
+			<li><a href=""> <img src="/src/img/LI-in-Bug.png" alt="" /></a></li>
 		</ul>
 	</section>
 	<section>
@@ -23,9 +23,11 @@
 </footer>
 
 <style>
+	a {
+		color: var(--nav-color);
+	}
 	footer {
 		background: var(--beige-color);
-		color: var(--default-color);
 		padding: 1rem;
 	}
 

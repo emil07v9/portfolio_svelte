@@ -2,29 +2,32 @@
 	export let title;
 	export let text;
 	export let src;
+	import { page } from '$app/stores';
 </script>
 
-<a href="#">
-	<section id="zoom">
-		<img {src} alt="" />
-		<div>
-			<h4>{title}</h4>
-			<p>
-				{text}
-			</p>
-		</div>
-	</section>
-</a>
+<section class:active={$page.url.pathname === '/dolah'}>
+	<a sveltekit:prefetch href="/dolah">
+		<article id="zoom">
+			<img {src} alt="" />
+			<div>
+				<h4>{title}</h4>
+				<p>
+					{text}
+				</p>
+			</div>
+		</article>
+	</a>
+</section>
 
 <style>
-	section {
+	article {
 		border-radius: 12px;
 		background-color: var(--beige-color);
 		width: 22rem;
 	}
 
 	@media (min-width: 400px) {
-		section {
+		article {
 			display: grid;
 			grid-template-columns: 1fr minmax(0, 1000px) 1fr;
 		}
