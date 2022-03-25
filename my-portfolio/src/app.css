@@ -34,7 +34,6 @@ body {
 	cursor: url(/src/img/cursor.svg), auto;
 }
 
-label:hover,
 a:hover {
 	cursor: url(/src/img/hover.svg), auto;
 }
