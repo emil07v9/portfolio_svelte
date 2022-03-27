@@ -1,130 +1,61 @@
-<section>
-	<div class="mx-4 md:grid md:grid-cols-2 md:grid-rows-1">
-		<h1 class="md:col-start-2">/FOLIO <br /> 2K22</h1>
-		<div class="grid grid-cols-3 grid-rows-3 md:col-start-1 md:row-start-1">
-			<img class="col-start-1 col-span-2 row-start-1 row-span-2" src="/src/img/hero.png" alt="" />
+<article>
+	<div class="mx-4 sm:grid sm:grid-cols-2 sm:grid-rows-1 gap-8">
+		<h1 class="sm:col-start-2 mb-0 flex justify-center">/FOLIO <br /> 2K22</h1>
+		<div class="grid grid-cols-3 grid-rows-3 sm:col-start-1 sm:row-start-1 sm:mt-10">
 			<img
-				class="rotate-90 col-start-2 col-span-2 row-start-2 row-span-2"
+				class="col-start-1 col-span-2 row-start-1 row-span-2 lg:flex lg:justify-center"
+				src="/src/img/hero.png"
+				alt=""
+			/>
+			<img
+				class="rotate-90 col-start-2 col-span-2 row-start-2 row-span-2 lg:flex lg:justify-center"
 				src="/src/img/hero.png"
 				alt=""
 			/>
 		</div>
 	</div>
-</section>
-<div />
-
-<!-- <div id="bg_image">
-	<div id="text">
-		<p class="slide-left">EMILIE KEMPEL SCHULTZ</p>
-		<div class="typing-demo1">
-			<h1>PORTFOLIO</h1>
-		</div>
+	<div class="flex justify-center mt-10">
+		<a href="#"><img class="knap_ned" src="src/img/pil.svg" alt="" /></a>
 	</div>
-	<a href="#"><img id="pilned" src="/src/img/pil_ned.svg" alt="" /></a>
-</div>
+</article>
 
 <style>
-	#bg_image {
-		background-image: url('src/img/hero.png');
-		position: relative;
-		width: 100vw;
-		height: 90vh;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-
-	#text {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
-
-	img {
-		position: absolute;
-		color: black;
-		top: 90%;
-		left: 50%;
-	}
-
-	#pilned {
-		width: 50px;
-	}
-
-	.typing-demo1 {
-		--w: 42ch;
-		width: 0ch;
-		animation: typing 3s steps(22) forwards, blink 0.2s step-end alternate;
-		white-space: nowrap;
-		overflow: hidden;
-		border-right: 3px solid;
-		/* font-family: 'BiauKai'; */
-		/* font-size: 3em; */
-		animation-delay: 0.5s;
-	}
-
-	p {
-		text-align: center;
-	}
-
-	/* .slide-left {
-		-webkit-animation: slide-left 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s both;
-		animation: slide-left 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s both;
-	} */
-
-	/* Animation h1 */
-	@keyframes typing {
-		to {
-			width: var(--w);
-		}
-	}
-
-	@keyframes blink {
-		50% {
-			border-color: transparent;
-		}
-	}
-	@keyframes caret {
-		50% {
-			border-color: transparent;
-		}
-	}
-
-	/* Animation p-tekst */
-	/* @-webkit-keyframes slide-left {
-		0% {
-			-webkit-transform: translateX(0);
-			transform: translateX(0);
-		}
-		100% {
-			-webkit-transform: translateX(-100px);
-			transform: translateX(-100px);
-		}
-	}
-	@keyframes slide-left {
-		0% {
-			-webkit-transform: translateX(0);
-			transform: translateX(0);
-		}
-		100% {
-			-webkit-transform: translateX(-100px);
-			transform: translateX(-100px);
-		}
-	} */
-</style> -->
-<style>
-	section {
+	article {
 		background-color: var(--beige-color);
 		width: 100vw;
-		height: 92vh;
+		height: 95vh;
 	}
 
 	h1 {
 		color: var(--nav-color);
+		font-size: 100px;
 	}
 
 	img {
 		width: 250px;
 		height: 150px;
+		padding-top: 0;
+	}
+
+	.knap_ned {
+		width: 70px;
+		display: flex;
+		justify-self: center;
+	}
+
+	button {
+		height: 80px;
+		width: 80px;
+	}
+
+	button:hover {
+		background-color: var(--beige-color);
+		color: var(--nav-color);
+	}
+
+	@media (min-width: 640px) {
+		article {
+			height: 80vh;
+		}
 	}
 </style>

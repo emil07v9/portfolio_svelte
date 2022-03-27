@@ -2,15 +2,19 @@
 	export let title;
 	export let text;
 	export let src;
+	export let type;
 	import { page } from '$app/stores';
 </script>
 
-<section class:active={$page.url.pathname === '/dolah'}>
+<section class="flex justify-center" class:active={$page.url.pathname === '/dolah'}>
 	<a sveltekit:prefetch href="/dolah">
 		<article id="zoom">
 			<img {src} alt="" />
 			<div>
-				<h4>{title}</h4>
+				<div class="badgeboks">
+					<h4>{title}</h4>
+					<div class="badge"><p>{type}</p></div>
+				</div>
 				<p>
 					{text}
 				</p>
@@ -20,9 +24,19 @@
 </section>
 
 <style>
-	article {
+	.badge {
 		border-radius: 12px;
 		background-color: var(--beige-color);
+		padding-inline: 15px;
+		padding-block: 5px;
+	}
+	.badgeboks {
+		display: flex;
+		justify-content: space-between;
+	}
+	article {
+		border-radius: 12px;
+		background-color: var(--grey-color);
 		width: 22rem;
 	}
 

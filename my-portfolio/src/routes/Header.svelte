@@ -28,7 +28,7 @@
 			<a sveltekit:prefetch href="/"><img src="src/img/logo.svg" alt="" /></a>
 		</figure>
 		<nav>
-			<ul>
+			<ul class="mt-5">
 				<li class:active={$page.url.pathname === '/projektgalleri'}>
 					<a sveltekit:prefetch href="/projektgalleri">PROJEKTGALLERI</a>
 				</li>
