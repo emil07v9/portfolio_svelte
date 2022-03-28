@@ -19,13 +19,13 @@ a {
 
 h1 {
 	font-weight: 600;
-	font-size: clamp(4rem, 3.7143rem + 1.219vw, 6rem);
+	font-size: clamp(4rem, 3.1429rem + 3.6571vw, 10rem);
 	word-wrap: break-word;
 	margin-block: 2rem;
 }
 
 h2 {
-	font-size: clamp(1.8rem, 1.5714rem + 0.9752vw, 3.4rem);
+	font-size: clamp(2.4rem, 2.1rem + 1.28vw, 4.5rem);
 	font-weight: 500;
 }
 
@@ -66,6 +66,7 @@ main {
 
 section {
 	margin-inline: 0.5rem;
+	margin-top: 6rem;
 }
 
 a {
@@ -78,4 +79,7 @@ body {
 
 a:hover {
 	cursor: url(/src/img/hover.svg), auto;
+}
+
+@media (min-width: 768px) {
 }

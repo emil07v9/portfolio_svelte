@@ -3,7 +3,7 @@
 </script>
 
 <section class="md:mx-20 lg:mx-40 xl:mx-60">
-	<h1>OM MIG</h1>
+	<h1>ABOUT ME</h1>
 	<h3>Multimediedesignstuderende med sans for UX og UI design.</h3>
 	<p class="pt-2">
 		Mit navn er Emilie Schultz, jeg er 22 år gammel, og jeg læser multimediedesign på Københavns
@@ -13,4 +13,4 @@
 		minus soluta! Dicta, eaque explicabo!
 	</p>
 </section>
-<Prefooter knap1="PROJEKTER" knap2="KONTAKT" />
+<Prefooter knap1="PROJECTS" knap2="CONTACT" />

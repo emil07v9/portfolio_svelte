@@ -6,36 +6,58 @@
 <main>
 	<Hero />
 	<section class="md:mx-20 lg:mx-40 xl:mx-60">
-		<h3 class="flex justify-center text-center">
-			VELKOMMEN! <br />
-			MIT NAVN ER EMILIE SCHULTZ
-		</h3>
-		<h4 class="flex justify-center text-center">
-			JEG ER EN DIGITAL DESIGNER MED FORKÆRLIGHED FOR...
-		</h4>
+		<article class="md:grid grid-cols-2 gap-5">
+			<div>
+				<h2>HI!</h2>
+				<h3>MY NAME IS EMILIE SCHULTZ</h3>
+				<h4>I'M A MULTIMEDIADESIGN STUDENT WITH SPECIAL A FLAIR FOR UX & UI DESIGN...</h4>
+			</div>
+			<div class="flex justify-center">
+				<img class="w-80" src="src/img/tegning.png" alt="" />
+			</div>
+		</article>
 	</section>
-	<section class="md:mx-20 lg:mx-40 xl:mx-60">
-		<h2>SKILLS</h2>
-		<div class="grid grid-cols-8 grid-rows-4">
-			<img class="col-start-4" src="/src/img/figma.svg" alt="" />
-			<img class="row-start-3" src="/src/img/adobe.svg" alt="" />
-			<img class="row-start-2 col-start-6" src="/src/img/figma.svg" alt="" />
-			<img class="col-start-2 row-start-2" src="/src/img/adobe.svg" alt="" />
-			<img class="col-start-8 row-start-3" src="/src/img/figma.svg" alt="" />
-			<img class="col-start-6 row-start-4" src="/src/img/adobe.svg" alt="" />
-			<img class="col-start-2 row-start-4" src="/src/img/figma.svg" alt="" />
-			<img class="col-start-7" src="/src/img/adobe.svg" alt="" />
-		</div>
+	<section class="sectiontwo">
+		<article class="md:px-20 lg:px-40 xl:px-60 py-10 px-1">
+			<h2 class="mb-5 md:mb-10">WALL OF SKILLS</h2>
+			<div class="md:grid grid-cols-3 gap-10">
+				<div class="pb-6">
+					<h4>HEJ</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nam.</p>
+				</div>
+				<div class="pb-6">
+					<h4>HEJ</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nam.</p>
+				</div>
+				<div class="pb-6">
+					<h4>HEJ</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nam.</p>
+				</div>
+				<div class="pb-6">
+					<h4>HEJ</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nam.</p>
+				</div>
+				<div class="pb-6">
+					<h4>HEJ</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nam.</p>
+				</div>
+				<div class="pb-6">
+					<h4>HEJ</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nam.</p>
+				</div>
+			</div>
+		</article>
 	</section>
-	<Prefooter knap1="PROJEKTER" knap2="OM MIG" />
+
+	<Prefooter knap1="PROJECTS" knap2="ABOUT" />
 </main>
 
 <style>
-	section {
-		margin-top: 4rem;
+	.sectiontwo {
+		background-color: var(--grey-color);
 	}
 
-	img {
-		width: 25px;
+	p {
+		max-width: 60ch;
 	}
 </style>

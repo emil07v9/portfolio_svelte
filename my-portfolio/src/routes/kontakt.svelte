@@ -7,7 +7,7 @@
 	<h3>Har du spørgsmål eller vil du i kontakt?</h3>
 
 	<h2 class="mt-10">Sådan kan jeg kontaktes</h2>
-	<article>
+	<article class="sm:grid grid-cols-3">
 		<div>
 			<h3>Email</h3>
 			<a href="mailto:emilie@webschultz.dk">emilie@webschultz</a>
@@ -24,7 +24,7 @@
 	</article>
 </section>
 
-<Prefooter knap1="PROJEKTER" knap2="OM MIG" />
+<Prefooter knap1="PROJECTS" knap2="ABOUT" />
 
 <style>
 	h1 {

@@ -5,9 +5,9 @@
 
 <section class="md:mx-20 lg:mx-40 xl:mx-60">
 	<div class="flex justify-center">
-		<h4 class="self-center text-right">DET BEHØVER IKKE AT ENDE HER...</h4>
+		<h4 class="self-center text-right">IT DOESN'T HAVE TO END HERE...</h4>
 		<hr class="rotate-90 self-center" />
-		<p>Email mig på <a href="#">emilie@webschultz.dk</a> <br /> eller lær mere her</p>
+		<p>Email me at <a href="#">emilie@webschultz.dk</a> <br /> or learn more here</p>
 	</div>
 	<div class="flex justify-end pr-10 sm:pr-20 md:pr-40 lg:pr-60">
 		<img src="src/img/pilned.svg" alt="" />
@@ -25,7 +25,7 @@
 		height: 2px;
 	}
 	section {
-		margin-top: 6rem;
+		margin-top: 10rem;
 	}
 
 	h4 {

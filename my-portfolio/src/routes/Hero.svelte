@@ -1,61 +1,218 @@
 <article>
-	<div class="mx-4 sm:grid sm:grid-cols-2 sm:grid-rows-1 gap-8">
-		<h1 class="sm:col-start-2 mb-0 flex justify-center">/FOLIO <br /> 2K22</h1>
-		<div class="grid grid-cols-3 grid-rows-3 sm:col-start-1 sm:row-start-1 sm:mt-10">
-			<img
-				class="col-start-1 col-span-2 row-start-1 row-span-2 lg:flex lg:justify-center"
-				src="/src/img/hero.png"
-				alt=""
-			/>
-			<img
-				class="rotate-90 col-start-2 col-span-2 row-start-2 row-span-2 lg:flex lg:justify-center"
-				src="/src/img/hero.png"
-				alt=""
-			/>
+	<div class="mt-20 lg:mt-20">
+		<div class="grid grid-cols-3 md:grid-cols-6">
+			<h4 class="hidden header">
+				EMILIE SCHULTZ <hr />
+				COPENHAGEN, DENMARK
+			</h4>
+			<div class="col-start-1 col-span-3 mx-5 md:col-start-3 md:col-span-2 gap-10">
+				<img class="slide-in-bottom myDIV w-full sm:h-96 md:h-full" src="/src/img/4.png" alt="" />
+				<h1 class="slide-in-top">PORTFOLIO</h1>
+			</div>
+			<div class="grid grid-rows-3 md:col-span-2">
+				<div class="flex md:row-start-3 gap-2 mx-5">
+					<hr class="self-center md:self-end mb-2 slide-in-left" />
+					<h4 class="self-center md:self-end typing-demo1">DIGITAL DESIGNER</h4>
+				</div>
+			</div>
 		</div>
-	</div>
-	<div class="flex justify-center mt-10">
-		<a href="#"><img class="knap_ned" src="src/img/pil.svg" alt="" /></a>
+		<div class="flex justify-center lg:mt-5 sm:mt-10 sm:pt-10">
+			<a class="slide-in-bottom" href="#"><img class="puls" src="src/img/pil.svg" alt="" /></a>
+		</div>
 	</div>
 </article>
 
 <style>
-	article {
-		background-color: var(--beige-color);
-		width: 100vw;
-		height: 95vh;
+	.typing-demo1 {
+		--w: 18ch;
+		width: 0ch;
+		animation: typing 2.5s steps(22) forwards, blink 0.5s step-end infinite alternate;
+		white-space: nowrap;
+		overflow: hidden;
+		border-right: 3px solid;
+		animation-delay: 0.5s;
+	}
+
+	@keyframes typing {
+		to {
+			width: var(--w);
+		}
+	}
+
+	@keyframes blink {
+		50% {
+			border-color: transparent;
+		}
+	}
+	@keyframes caret {
+		50% {
+			border-color: transparent;
+		}
+	}
+	@keyframes slide-in-left {
+		0% {
+			-webkit-transform: translateX(-50px);
+			transform: translateX(-50px);
+			opacity: 0;
+		}
+		100% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+			opacity: 1;
+		}
+	}
+
+	hr {
+		width: 30px;
+		background-color: var(--nav-color);
+		height: 2px;
+		padding-left: 10px;
+	}
+
+	.myDIV {
+		position: relative;
 	}
 
 	h1 {
-		color: var(--nav-color);
-		font-size: 100px;
+		position: absolute;
+		top: 25%;
+		left: 5%;
 	}
 
-	img {
-		width: 250px;
-		height: 150px;
-		padding-top: 0;
+	@keyframes slide-in-right {
+		0% {
+			-webkit-transform: translateX(1000px);
+			transform: translateX(1000px);
+			opacity: 0;
+		}
+		100% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+			opacity: 1;
+		}
 	}
 
-	.knap_ned {
-		width: 70px;
-		display: flex;
-		justify-self: center;
+	.puls {
+		animation-name: puls_kf;
+		animation-duration: 0.7s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		animation-direction: alternate;
 	}
 
-	button {
-		height: 80px;
-		width: 80px;
+	@keyframes puls_kf {
+		0% {
+			transform: scale(0.9);
+		}
+
+		100% {
+			transform: scale(1);
+		}
 	}
 
-	button:hover {
-		background-color: var(--beige-color);
-		color: var(--nav-color);
+	@media (min-width: 500px) {
+		h1 {
+			top: 25%;
+			left: 15%;
+		}
+
+		hr {
+			place-self: end;
+			margin-bottom: 12px;
+		}
 	}
 
-	@media (min-width: 640px) {
-		article {
-			height: 80vh;
+	@media (min-width: 700px) {
+		.slide-in-left {
+			-webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+			animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+		}
+		@-webkit-keyframes slide-in-left {
+			0% {
+				-webkit-transform: translateX(-50px);
+				transform: translateX(-50px);
+				opacity: 0;
+			}
+			100% {
+				-webkit-transform: translateX(0);
+				transform: translateX(0);
+				opacity: 1;
+			}
+		}
+		.slide-in-bottom {
+			-webkit-animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+			animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+			animation-iteration-count: 1;
+		}
+		@-webkit-keyframes slide-in-bottom {
+			0% {
+				-webkit-transform: translateY(90px);
+				transform: translateY(90px);
+				opacity: 0;
+			}
+			100% {
+				-webkit-transform: translateY(0);
+				transform: translateY(0);
+				opacity: 1;
+			}
+		}
+
+		.slide-in-top {
+			-webkit-animation: slide-in-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+			animation: slide-in-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+		}
+		@-webkit-keyframes slide-in-top {
+			0% {
+				-webkit-transform: translateY(-90px);
+				transform: translateY(-90px);
+				opacity: 0;
+			}
+			100% {
+				-webkit-transform: translateY(0);
+				transform: translateY(0);
+				opacity: 1;
+			}
+		}
+		@keyframes slide-in-top {
+			0% {
+				-webkit-transform: translateY(-90px);
+				transform: translateY(-90px);
+				opacity: 0;
+			}
+			100% {
+				-webkit-transform: translateY(0);
+				transform: translateY(0);
+				opacity: 1;
+			}
+		}
+	}
+
+	@media (min-width: 768px) {
+		.header {
+			position: fixed;
+			top: 30%;
+			width: 100vh;
+			transform-origin: top left;
+			transform: rotate(90deg) translateY(-100%);
+			display: flex;
+			gap: 5px;
+		}
+	}
+	@media (min-width: 800px) {
+		h1 {
+			top: 25%;
+			left: 20%;
+		}
+
+		.header {
+			top: 20%;
+		}
+	}
+
+	@media (min-width: 1000px) {
+		h1 {
+			top: 25%;
+			left: 28%;
 		}
 	}
 </style>
