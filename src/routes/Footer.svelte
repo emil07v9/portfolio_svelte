@@ -1,23 +1,27 @@
-<footer>
+<footer class="p-1 md:p-0">
 	<section>
-		<h3>KONTAKT</h3>
+		<h4>CONTACT</h4>
 		<ul>
-			<li>Tlf. +45 42423796</li>
-			<li>Privat Email <a href="mailto:emilie@webschultz.dk">emilie@webschultz</a></li>
-			<li>Skole Email <a href="mailto:emil07v9@stud.kea.dk">emil07v9@stud.kea.dk</a></li>
+			<li>Phone <a href="tel:42423796">+45 42423796</a></li>
+			<li>Private email <a href="mailto:emilie@webschultz.dk">emilie@webschultz</a></li>
+			<li>School email <a href="mailto:emil07v9@stud.kea.dk">emil07v9@stud.kea.dk</a></li>
 		</ul>
 	</section>
 	<section>
-		<h3>SOCIAL</h3>
+		<h4>SOCIAL</h4>
 		<ul>
-			<li><a href=""> <img src="/src/img/LI-in-Bug.png" alt="" /></a></li>
+			<li>
+				<a href="www.linkedin.com/in/emiliekempelschultz">
+					<img src="/src/img/LI-in-Bug.png" alt="" /></a
+				>
+			</li>
 		</ul>
 	</section>
 	<section>
-		<h3>PORTFOLIO</h3>
+		<h4>PORTFOLIO</h4>
 		<ul>
-			<li>Lavet af Emilie Schultz</li>
-			<li>Bygget I SvelteKit</li>
+			<li>Made by Emilie Schultz</li>
+			<li>Build in SvelteKit</li>
 		</ul>
 	</section>
 </footer>
@@ -28,7 +32,6 @@
 	}
 	footer {
 		background: var(--beige-color);
-		padding: 1rem;
 	}
 
 	li {

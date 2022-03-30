@@ -1,18 +1,22 @@
 <article>
 	<div class="mt-20 lg:mt-20">
 		<div class="grid grid-cols-3 md:grid-cols-6">
-			<h4 class="hidden header">
+			<h5 class="hidden header">
 				EMILIE SCHULTZ <hr />
 				COPENHAGEN, DENMARK
-			</h4>
+			</h5>
 			<div class="col-start-1 col-span-3 mx-5 md:col-start-3 md:col-span-2 gap-10">
-				<img class="slide-in-bottom myDIV w-full sm:h-96 md:h-full" src="/src/img/4.png" alt="" />
+				<img
+					class="slide-in-bottom myDIV w-full sm:h-96 md:h-full"
+					src="/src/img/profil1.png"
+					alt=""
+				/>
 				<h1 class="slide-in-top">PORTFOLIO</h1>
 			</div>
 			<div class="grid grid-rows-3 md:col-span-2">
 				<div class="flex md:row-start-3 gap-2 mx-5">
 					<hr class="self-center md:self-end mb-2 slide-in-left" />
-					<h4 class="self-center md:self-end typing-demo1">DIGITAL DESIGNER</h4>
+					<h5 class="self-center md:self-end typing-demo1">DIGITAL DESIGNER</h5>
 				</div>
 			</div>
 		</div>
@@ -23,10 +27,13 @@
 </article>
 
 <style>
+	h1 {
+		color: var(--nav-color);
+	}
 	.typing-demo1 {
 		--w: 18ch;
 		width: 0ch;
-		animation: typing 2.5s steps(22) forwards, blink 0.5s step-end infinite alternate;
+		animation: typing 2.5s steps(24) forwards, blink 0.5s step-end infinite alternate;
 		white-space: nowrap;
 		overflow: hidden;
 		border-right: 3px solid;
@@ -190,7 +197,7 @@
 	@media (min-width: 768px) {
 		.header {
 			position: fixed;
-			top: 30%;
+			top: 25%;
 			width: 100vh;
 			transform-origin: top left;
 			transform: rotate(90deg) translateY(-100%);
@@ -211,8 +218,8 @@
 
 	@media (min-width: 1000px) {
 		h1 {
-			top: 25%;
-			left: 28%;
+			top: 18%;
+			left: 25%;
 		}
 	}
 </style>

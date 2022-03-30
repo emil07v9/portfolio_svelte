@@ -100,10 +100,6 @@
 		border-radius: 50%;
 		font-size: 20px;
 		cursor: pointer;
-		/*color: #fff;*/
-		/*background: linear-gradient(90deg, #f92c78, #4114a1);*/
-		/* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
-		/* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
 		transition: all 0.3s ease-in-out;
 		background: var(--nav-color);
 	}
