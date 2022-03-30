@@ -12,7 +12,7 @@
 		<ul>
 			<li>
 				<a href="www.linkedin.com/in/emiliekempelschultz">
-					<img src="/src/img/LI-in-Bug.png" alt="" /></a
+					<img src="/img/LI-in-Bug.png" alt="" /></a
 				>
 			</li>
 		</ul>

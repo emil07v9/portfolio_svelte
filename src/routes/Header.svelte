@@ -25,7 +25,7 @@
 	<!-- Desktop -->
 	<article id="desktop">
 		<figure class:active={$page.url.pathname === '/'}>
-			<a sveltekit:prefetch href="/"><img src="src/img/logo.svg" alt="" /></a>
+			<a sveltekit:prefetch href="/"><img src="/img/logo.svg" alt="" /></a>
 		</figure>
 		<nav>
 			<ul class="mt-5">
@@ -45,7 +45,7 @@
 
 <style>
 	header {
-		cursor: url(/src/img/cursor.svg);
+		cursor: url(/img/cursor.svg);
 	}
 	a {
 		color: var(--nav-color);

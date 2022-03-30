@@ -20,5 +20,5 @@
 </section>
 <Prefooter knap1="PROJECTS" knap2="CONTACT" />
 <div class="flex justify-end mt-10">
-	<a class="rotate-180 mr-5" href="#"><img class="puls" src="src/img/pil.svg" alt="" /></a>
+	<a class="rotate-180 mr-5" href="/#"><img class="puls" src="/img/pil.svg" alt="" /></a>
 </div>

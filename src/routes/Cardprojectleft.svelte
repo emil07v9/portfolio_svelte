@@ -21,7 +21,7 @@
 		<div class="flex justify-end p-1">
 			<a sveltekit:prefetch href={link}
 				><button class="flex justify-center  zoom"
-					><img class="pil" src="src/img/gåtil.svg" alt="" /></button
+					><img class="pil" src="/img/gåtil.svg" alt="" /></button
 				></a
 			>
 		</div>
