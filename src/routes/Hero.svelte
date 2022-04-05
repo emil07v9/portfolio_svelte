@@ -8,7 +8,7 @@
 			<div class="col-start-1 col-span-3 mx-5 md:col-start-3 md:col-span-2 gap-10">
 				<img
 					class="slide-in-bottom myDIV w-full sm:h-96 md:h-full"
-					src="./public/profil1.png"
+					src="./public/img/profil1.png"
 					alt=""
 				/>
 				<h1 class="slide-in-top">PORTFOLIO</h1>
