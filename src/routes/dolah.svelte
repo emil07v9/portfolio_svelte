@@ -4,7 +4,7 @@
 
 <div class="ml-2 md:ml-10">
 	<a sveltekit:prefetch href="/projektgalleri"
-		><button class="flex justify-center"><img class="pil" src="/img/gåfra.svg" alt="" /></button></a
+		><button class="flex justify-center"><img class="pil" src="gåfra.svg" alt="" /></button></a
 	>
 </div>
 <section class="md:mx-20 lg:mx-40 xl:mx-60 mt-10">
@@ -14,7 +14,7 @@
 		<hr class="flex self-center my-1" />
 		<p>DIGITAL DESIGN / WEB DEVELOPMENT / CONTENT CREATION / SO-ME / SEO</p>
 	</div>
-	<img class="w-full h-96 mt-10 mb-20 md:mb-40" src="/img/placeholder.png" alt="" />
+	<img class="w-full h-96 mt-10 mb-20 md:mb-40" src="placeholder.png" alt="" />
 	<article class="md:grid md:grid-cols-2 mb-20 md:mb-40">
 		<div>
 			<h2>PRJ /</h2>
@@ -27,7 +27,7 @@
 		</p>
 	</article>
 	<article class="md:grid grid-cols-2 mb-20 md:mb-40">
-		<img src="/img/placeholder.png" alt="" />
+		<img src="placeholder.png" alt="" />
 		<div class="md:pl-4">
 			<h4 class="mb-4 mt-5 md:mt-0">PRJ / INFO</h4>
 			<div class="grid grid-cols-2 mb-2">
@@ -99,14 +99,14 @@
 	</article>
 </section>
 <article class="md:grid grid-cols-4">
-	<img class="hidden md:block" src="/img/placeholder.png" alt="" />
-	<img class="hidden md:block" src="/img/placeholder.png" alt="" />
-	<img src="/img/placeholder.png" alt="" />
-	<img src="/img/placeholder.png" alt="" />
+	<img class="hidden md:block" src="placeholder.png" alt="" />
+	<img class="hidden md:block" src="placeholder.png" alt="" />
+	<img src="placeholder.png" alt="" />
+	<img src="placeholder.png" alt="" />
 </article>
 <Prefooter knap1="PROJECTS" knap2="ABOUT" />
 <div class="flex justify-end mt-10">
-	<a class="rotate-180 mr-5" href="#"><img class="puls" src="/img/pil.svg" alt="" /></a>
+	<a class="rotate-180 mr-5" href="#"><img class="puls" src="pil.svg" alt="" /></a>
 </div>
 
 <style>
