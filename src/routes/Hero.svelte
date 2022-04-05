@@ -6,11 +6,7 @@
 				COPENHAGEN, DENMARK
 			</h5>
 			<div class="col-start-1 col-span-3 mx-5 md:col-start-3 md:col-span-2 gap-10">
-				<img
-					class="slide-in-bottom myDIV w-full sm:h-96 md:h-full"
-					src="/public/img/profil1.png"
-					alt=""
-				/>
+				<img class="slide-in-bottom myDIV w-full sm:h-96 md:h-full" src="profil1.png" alt="" />
 				<h1 class="slide-in-top">PORTFOLIO</h1>
 			</div>
 			<div class="grid grid-rows-3 md:col-span-2">
@@ -21,7 +17,7 @@
 			</div>
 		</div>
 		<div class="flex justify-center lg:mt-5 sm:mt-10 sm:pt-10">
-			<a class="slide-in-bottom" href="#"><img class="puls" src="/spil.svg" alt="" /></a>
+			<a class="slide-in-bottom" href="#"><img class="puls" src="spil.svg" alt="" /></a>
 		</div>
 	</div>
 </article>
