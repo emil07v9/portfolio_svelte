@@ -17,7 +17,7 @@
 			</div>
 		</div>
 		<div class="flex justify-center lg:mt-5 sm:mt-10 sm:pt-10">
-			<a class="slide-in-bottom" href="#"><img class="puls" src="spil.svg" alt="" /></a>
+			<a class="slide-in-bottom" href="#"><img class="puls" src="pil.svg" alt="" /></a>
 		</div>
 	</div>
 </article>

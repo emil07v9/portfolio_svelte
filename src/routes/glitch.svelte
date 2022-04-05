@@ -4,7 +4,7 @@
 
 <div class="ml-2 md:ml-10">
 	<a sveltekit:prefetch href="/projektgalleri"
-		><button class="flex justify-center"><img class="pil" src="/img/gåfra.svg" alt="" /></button></a
+		><button class="flex justify-center"><img class="pil" src="gåfra.svg" alt="" /></button></a
 	>
 </div>
 <section class="md:mx-20 lg:mx-40 xl:mx-60 mt-10">

@@ -45,7 +45,7 @@
 
 <style>
 	header {
-		cursor: url(/img/cursor.svg);
+		cursor: url(cursor.svg);
 	}
 	a {
 		color: var(--nav-color);

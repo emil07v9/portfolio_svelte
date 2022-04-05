@@ -11,9 +11,7 @@
 		<h4>SOCIAL</h4>
 		<ul>
 			<li>
-				<a href="www.linkedin.com/in/emiliekempelschultz">
-					<img src="/img/LI-in-Bug.png" alt="" /></a
-				>
+				<a href="www.linkedin.com/in/emiliekempelschultz"> <img src="LI-in-Bug.png" alt="" /></a>
 			</li>
 		</ul>
 	</section>
