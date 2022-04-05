@@ -17,14 +17,14 @@
 			</div>
 			<div class="borderboks w-80 h-96 relative mt-10">
 				<div>
-					<img class=" w-80 absolute left-8 top-10" src="src/img/tegning.png" alt="" />
+					<img class=" w-80 absolute left-8 top-10" src="tegning.png" alt="" />
 				</div>
 			</div>
 		</article>
 	</section>
 	<section class="sectiontwo">
 		<article class="md:px-20 lg:px-40 xl:px-60 py-10 px-1">
-			<h2 class="mb-5 md:mb-10">WALL OF SKILLS</h2>
+			<h2 class="mb-5 md:mb-10">RECAP</h2>
 			<div class="md:grid grid-cols-3 gap-10">
 				<div class="pb-6">
 					<h4>PROFESSIONAL TRAITS</h4>
@@ -36,14 +36,6 @@
 					<p>Independent</p>
 				</div>
 				<div class="pb-6">
-					<h4>HEJ</h4>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nam.</p>
-				</div>
-				<div class="pb-6">
-					<h4>HEJ</h4>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nam.</p>
-				</div>
-				<div class="pb-6">
 					<h4>PERSONALITY TRAITS</h4>
 					<p>Energetic</p>
 					<p>Positive</p>
@@ -52,12 +44,30 @@
 					<p>Love a good laugh!</p>
 				</div>
 				<div class="pb-6">
-					<h4>HEJ</h4>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nam.</p>
+					<h4>PROGRAMS I LIKE</h4>
+					<p>Adobe XD</p>
+					<p>Adobe Illustrator</p>
+					<p>Figma</p>
+					<p>Adobe Photoshop</p>
 				</div>
 				<div class="pb-6">
-					<h4>HEJ</h4>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nam.</p>
+					<h4>OTHER PROGRAMS USED</h4>
+					<p>Adobe Premiere Pro</p>
+					<p>Adobe InDesign</p>
+				</div>
+				<div class="pb-6">
+					<h4>CODING SKILLS</h4>
+					<p>HTML</p>
+					<p>CSS</p>
+					<p>Tailwind CSS</p>
+					<p>JavaScript</p>
+					<p>Svelte</p>
+					<p>SvelteKit</p>
+				</div>
+				<div class="pb-6">
+					<h4>OTHER SKILLS</h4>
+					<p>SEO</p>
+					<p>Content creation</p>
 				</div>
 			</div>
 		</article>
@@ -65,7 +75,7 @@
 
 	<Prefooter knap1="PROJECTS" knap2="ABOUT" />
 	<div class="flex justify-end mt-10">
-		<a class="rotate-180 mr-5" href="#"><img class="puls" src="src/img/pil.svg" alt="" /></a>
+		<a class="rotate-180 mr-5" href="#"><img class="puls" src="pil.svg" alt="" /></a>
 	</div>
 </main>
 

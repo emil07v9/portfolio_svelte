@@ -9,39 +9,39 @@
 		<h1 class="slide-in-top-side">PROJECTS</h1>
 		<article class="slide-in-bottom-side">
 			<Cardprojectleft
-				src="/img/DoLah.png"
-				title="DO LAH"
+				src="DoLah.png"
+				title="DO LAH SOAP BARS"
 				text="Lorem Ipsum"
 				type="2. Sem"
 				link="/dolah"
 			/>
 
 			<Cardprojectright
-				src="/img/Glitch.png"
-				title="TYPOGRAFI"
+				src="Glitch.png"
+				title="TYPOGRAPHY"
 				text="Lorem Ipsum"
 				type="3. Sem"
-				link="/dolah"
+				link="/glitch"
 			/>
 
 			<Cardprojectleft
-				src="/img/SkoleMad.png"
+				src="SkoleMad.png"
 				title="SKOLEMAD.DK"
 				text="Lorem Ipsum"
 				type="3. Sem"
-				link="/dolah"
+				link="/skolemad"
 			/>
 
 			<Cardprojectright
-				src="/img/Glitch.png"
-				title="TYPOGRAFI"
+				src="Glitch.png"
+				title="MUSIKLOFTET"
 				text="Lorem Ipsum"
 				type="3. Sem"
-				link="/dolah"
+				link="/musikloftet"
 			/>
 
 			<Cardprojectleft
-				src="/img/SkoleMad.png"
+				src="SkoleMad.png"
 				title="UNGDOMSBYEN"
 				text="Lorem Ipsum"
 				type="2. Sem"
@@ -49,7 +49,7 @@
 			/>
 
 			<Cardprojectright
-				src="/img/Glitch.png"
+				src="Glitch.png"
 				title="TYPOGRAFI"
 				text="Lorem Ipsum"
 				type="3. Sem"
@@ -59,7 +59,7 @@
 	</section>
 	<Prefooter knap1="CONTACT" knap2="ABOUT" />
 	<div class="flex justify-end mt-10">
-		<a class="rotate-180 mr-5" href="#"><img class="puls" src="/img/pil.svg" alt="" /></a>
+		<a class="rotate-180 mr-5" href="#"><img class="puls" src="pil.svg" alt="" /></a>
 	</div>
 </main>
 

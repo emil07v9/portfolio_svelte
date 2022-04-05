@@ -10,9 +10,9 @@
 <section class="md:mx-20 lg:mx-40 xl:mx-60 mt-10">
 	<h1>DO LAH</h1>
 	<div class="md:flex space-x-2">
-		<p>3. sem</p>
+		<p>2. sem</p>
 		<hr class="flex self-center my-1" />
-		<p>DIGITAL DESIGN / WEB DEVELOPMENT / CONTENT CREATION / SO-ME</p>
+		<p>DIGITAL DESIGN / WEB DEVELOPMENT / CONTENT CREATION / SO-ME / SEO</p>
 	</div>
 	<img class="w-full h-96 mt-10 mb-20 md:mb-40" src="/img/placeholder.png" alt="" />
 	<article class="md:grid md:grid-cols-2 mb-20 md:mb-40">
@@ -49,6 +49,10 @@
 					Google Ads (SEO),<br /> Lighthouse (SEO),
 					<br /> Smush & Yoast (WP SEO)
 				</p>
+			</div>
+			<div class="grid grid-cols-2 mb-2">
+				<p class="boxheadings">Coding</p>
+				<p>CMS-system, <br /> PHP</p>
 			</div>
 		</div>
 	</article>

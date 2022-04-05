@@ -4,15 +4,15 @@
 
 <div class="ml-2 md:ml-10">
 	<a sveltekit:prefetch href="/projektgalleri"
-		><button class="flex justify-center"><img class="pil" src="/img/gåfra.svg" alt="" /></button></a
+		><button class="flex justify-center"><img class="pil" src="gåfra.svg" alt="" /></button></a
 	>
 </div>
 <section class="md:mx-20 lg:mx-40 xl:mx-60 mt-10">
-	<h1>TYPOGRAPHY</h1>
+	<h1>MUSIKLOFTET</h1>
 	<div class="md:flex space-x-2">
 		<p>3. sem</p>
 		<hr class="flex self-center my-1" />
-		<p>TYPOGRAPHY / DIGITAL DESIGN / CONTENT CREATION</p>
+		<p>DESIGN SYSTEMS / UI & UX DESIGN / INFORMATIONARCHITECTURE / WEB DEVELOPMENT</p>
 	</div>
 	<img class="w-full h-96 mt-10 mb-20 md:mb-40" src="placeholder.png" alt="" />
 	<article class="md:grid md:grid-cols-2 mb-20 md:mb-40">
@@ -38,19 +38,22 @@
 			</div>
 			<div class="grid grid-cols-2 mb-2">
 				<p class="boxheadings">Type</p>
-				<p>Single project</p>
+				<p>Group project</p>
 			</div>
 			<div class="grid grid-cols-2 mb-2">
 				<p class="boxheadings">Programs etc.</p>
 				<p>
-					Adobe Illustrator (typography), <br /> Figma (Prototyping etc), <br /> Adobe Photoshop
-					(gifs) <br />
+					Figma (Prototyping etc), <br /> Adobe Illustrator (icons) <br />
 				</p>
+			</div>
+			<div class="grid grid-cols-2 mb-3">
+				<p class="boxheadings">My main focus</p>
+				<p>Webdesign, <br /> Information Architecture, <br /> Design System</p>
 			</div>
 			<div class="grid grid-cols-2 mb-2">
 				<p class="boxheadings">Coding</p>
 				<p>
-					HTML, <br /> Tailwind CSS <br />
+					Svelte.Kit <br />
 				</p>
 			</div>
 		</div>
@@ -59,17 +62,15 @@
 		<h3>PROCES OVERVIEW</h3>
 		<div class="md:grid grid-cols-3 gap-7 mx-3 md:mx-0">
 			<div class="mb-5 md:mb-0">
-				<h4 class="pb-1">Typography</h4>
-				<li class="pb-2">Research & moodboard</li>
-				<li class="pb-2">Sketching</li>
-				<li class="pb-2">Adobe Illustrator <br /> - finished drawing</li>
+				<h4 class="pb-1">UX & Information Architecture</h4>
+				<li class="pb-2">Conceptual Sitemap</li>
+				<li class="pb-2">Detailed Sitemap</li>
+				<li class="pb-2">Purchaseflow</li>
 			</div>
 			<div class="mb-5 md:mb-0">
-				<h4 class="pb-1">Content</h4>
-				<li class="pb-2">Adobe Photoshop <br /> - Gifs & photoshop</li>
-				<li class="pb-2">
-					Adobe Illustrator <br /> - Content
-				</li>
+				<h4 class="pb-1">Design System</h4>
+				<li class="pb-2">Componentbased design <br /> - SvelteKit</li>
+				<li class="pb-2">Figma: Design Manual <br /> - Sizes, colors, paddings etc.</li>
 			</div>
 			<div class="mb-5 md:mb-0">
 				<h4 class="pb-1">Website</h4>

@@ -9,7 +9,7 @@
 
 <section class="md:grid grid-cols-2 gap-5">
 	<div>
-		<h2>{title}</h2>
+		<h3>{title}</h3>
 		<div>
 			<div class="badge flex space-x-2">
 				<hr class="flex self-center" />
@@ -19,8 +19,7 @@
 		<p class="brød">{text}</p>
 		<div class="flex justify-end p-1">
 			<a sveltekit:prefetch href={link}
-				><button class="flex justify-center zoom"
-					><img class="pil" src="/img/gåtil.svg" alt="" /></button
+				><button class="flex justify-center zoom"><img class="pil" src="gåtil.svg" alt="" /></button
 				></a
 			>
 		</div>
