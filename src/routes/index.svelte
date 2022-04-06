@@ -6,20 +6,20 @@
 <main>
 	<Hero />
 	<section class="md:mx-20 lg:mx-40 xl:mx-60">
-		<article class="md:grid grid-cols-2 gap-8">
-			<div>
-				<h2>HI!</h2>
+		<article class="flex justify-center text-center">
+			<div class="borderboks px-5 py-20">
+				<h3>HI!</h3>
 				<h3>MY NAME IS EMILIE SCHULTZ</h3>
 				<h5>
-					I'M A MULTIMEDIADESIGN STUDENT WITH BIG INTEREST IN UX & UI DESIGN... WELCOM TO MY
+					I'M A MULTIMEDIADESIGN STUDENT WITH A BIG INTEREST IN UX & UI DESIGN... <br /> WELCOME TO MY
 					PORTFOLIO!
 				</h5>
 			</div>
-			<div class="borderboks w-80 h-96 relative mt-10">
+			<!-- <div class="borderboks w-80 h-96 relative mt-10">
 				<div>
 					<img class=" w-80 absolute left-8 top-10" src="tegning.png" alt="" />
 				</div>
-			</div>
+			</div> -->
 		</article>
 	</section>
 	<section class="sectiontwo">

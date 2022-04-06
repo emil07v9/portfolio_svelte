@@ -238,13 +238,17 @@
 
 		ul {
 			display: flex;
-			gap: 2rem;
+			/* gap: 2rem; */
 		}
 
 		article {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
+		}
+
+		li {
+			padding: 1rem;
 		}
 	}
 </style>

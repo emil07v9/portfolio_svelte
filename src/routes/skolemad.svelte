@@ -8,7 +8,7 @@
 	>
 </div>
 <section class="md:mx-20 lg:mx-40 xl:mx-60 mt-10">
-	<h1>SKOLEMAD.DK</h1>
+	<h1>SKOLEMAD</h1>
 	<div class="md:flex space-x-2">
 		<p>3. sem</p>
 		<hr class="flex self-center my-1" />

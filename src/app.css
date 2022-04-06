@@ -28,7 +28,7 @@ h5 {
 
 h1 {
 	font-weight: 300;
-	font-size: clamp(4rem, 3.1429rem + 3.6571vw, 10rem);
+	font-size: clamp(3.4rem, 2.4571rem + 4.0229vw, 10rem);
 	word-wrap: break-word;
 }
 

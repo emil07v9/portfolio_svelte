@@ -79,7 +79,7 @@
 	h1 {
 		position: absolute;
 		top: 25%;
-		left: 5%;
+		left: 10%;
 	}
 
 	@keyframes slide-in-right {
