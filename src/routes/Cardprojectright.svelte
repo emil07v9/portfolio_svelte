@@ -1,6 +1,5 @@
 <script>
 	export let title;
-	export let text;
 	export let src;
 	export let type;
 	export let link;
@@ -8,7 +7,7 @@
 </script>
 
 <section class="md:grid grid-cols-2 gap-5">
-	<div>
+	<div class="md:grid grid-rows-3 grid-cols-1">
 		<h3>{title}</h3>
 		<div>
 			<div class="badge flex space-x-2">
@@ -16,7 +15,6 @@
 				<p>{type}</p>
 			</div>
 		</div>
-		<p class="brød">{text}</p>
 		<div class="flex justify-end p-1">
 			<a sveltekit:prefetch href={link}
 				><button class="flex justify-center zoom"><img class="pil" src="gåtil.svg" alt="" /></button

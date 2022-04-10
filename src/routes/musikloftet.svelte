@@ -21,11 +21,12 @@
 			<h3>INTRODUCTION</h3>
 		</div>
 		<p>
-			In this smaller project we were given the task to create and name our own typography and
-			display it in 6-8 letters. To advertise the typography, we also had to create a website, where
-			the font was displayed in different contexts. All other typography on the website had to use a
-			variable font. <br /> <strong> OBS!</strong> The project revolved around design - most text is
-			therefore lorem ipsum.
+			In this smaller project we were given the task to create a website for the fictional music
+			rehearsal room landlord, 'Musikloftet'. The website had to give a good overview of the
+			different services, Musikloftet had to offer, as well as visually reflect what type of place,
+			you could expect to meet. Furthermore the design had to be shaped around a list of values...
+			<br /> My group chose these three words: <br />
+			Immersion, flexibility and focus.
 		</p>
 	</article>
 	<article class="md:grid grid-cols-2 mb-20 md:mb-40">
@@ -34,7 +35,7 @@
 			<h4 class="mb-4 mt-5 md:mt-0">PRJ / INFO</h4>
 			<div class="grid grid-cols-2 mb-2">
 				<p class="boxheadings">Duration</p>
-				<p>1 week</p>
+				<p>2 week</p>
 			</div>
 			<div class="grid grid-cols-2 mb-2">
 				<p class="boxheadings">Type</p>
@@ -43,17 +44,18 @@
 			<div class="grid grid-cols-2 mb-2">
 				<p class="boxheadings">Programs etc.</p>
 				<p>
-					Figma (Prototyping etc), <br /> Adobe Illustrator (icons) <br />
+					Figma (Prototyping etc), <br /> Adobe Illustrator (content)
 				</p>
 			</div>
 			<div class="grid grid-cols-2 mb-3">
 				<p class="boxheadings">My main focus</p>
-				<p>Webdesign, <br /> Information Architecture, <br /> Design System</p>
+				<p>Idea development, <br /> Webdesign, <br /> Frontend Development</p>
 			</div>
 			<div class="grid grid-cols-2 mb-2">
 				<p class="boxheadings">Coding</p>
 				<p>
-					Svelte.Kit <br />
+					HTML <br />
+					Tailwind CSS
 				</p>
 			</div>
 		</div>
@@ -62,22 +64,21 @@
 		<h3>PROCES OVERVIEW</h3>
 		<div class="md:grid grid-cols-3 gap-7 mx-3 md:mx-0">
 			<div class="mb-5 md:mb-0">
-				<h4 class="pb-1">UX & Information Architecture</h4>
-				<li class="pb-2">Conceptual Sitemap</li>
-				<li class="pb-2">Detailed Sitemap</li>
-				<li class="pb-2">Purchaseflow</li>
-			</div>
-			<div class="mb-5 md:mb-0">
-				<h4 class="pb-1">Design System</h4>
-				<li class="pb-2">Componentbased design <br /> - SvelteKit</li>
-				<li class="pb-2">Figma: Design Manual <br /> - Sizes, colors, paddings etc.</li>
+				<h4 class="pb-1">Design</h4>
+				<li class="pb-2">Moodboard</li>
+				<li class="pb-2">Styletile</li>
+				<li class="pb-2">Graphic Elements</li>
 			</div>
 			<div class="mb-5 md:mb-0">
 				<h4 class="pb-1">Website</h4>
-				<li class="pb-2">Moodboard</li>
-				<li class="pb-2">Styletile</li>
-				<li class="pb-2">Wireframe</li>
-				<li class="pb-2">Mockup</li>
+				<li class="pb-2">Sitemap (IA)</li>
+				<li class="pb-2">Wireframing</li>
+				<li class="pb-2">Prototyping</li>
+			</div>
+			<div class="mb-5 md:mb-0">
+				<h4 class="pb-1">Test</h4>
+				<li class="pb-2">Usability test <br /> - Test of prototype</li>
+				<li class="pb-2">Usability test <br /> - Test of website</li>
 			</div>
 		</div>
 	</article>

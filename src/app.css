@@ -87,12 +87,12 @@ a {
 }
 
 body {
-	cursor: url(/img/cursor.svg), auto;
+	cursor: url(cursor.svg), auto;
 }
 
 a:hover,
 button:hover {
-	cursor: url(/img/hover.svg), auto;
+	cursor: url(hover.svg), auto;
 }
 
 /* Animation */

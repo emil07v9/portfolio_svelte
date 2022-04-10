@@ -8,53 +8,22 @@
 	<section class="mt-20 md:mx-20 lg:mx-40 xl:mx-60">
 		<h1 class="slide-in-top-side">PROJECTS</h1>
 		<article class="slide-in-bottom-side">
-			<Cardprojectleft
-				src="DoLah.png"
-				title="DO LAH SOAP BARS"
-				text="Lorem Ipsum"
-				type="2. Sem"
-				link="/dolah"
-			/>
+			<Cardprojectleft src="DoLah.png" title="DO LAH SOAP BARS" type="2. Sem" link="/dolah" />
+
+			<Cardprojectright src="Glitch.png" title="TYPOGRAPHY" type="3. Sem" link="/glitch" />
+
+			<Cardprojectleft src="SkoleMad.png" title="SKOLEMAD.DK" type="3. Sem" link="/skolemad" />
 
 			<Cardprojectright
-				src="Glitch.png"
-				title="TYPOGRAPHY"
-				text="Lorem Ipsum"
-				type="3. Sem"
-				link="/glitch"
-			/>
-
-			<Cardprojectleft
-				src="SkoleMad.png"
-				title="SKOLEMAD.DK"
-				text="Lorem Ipsum"
-				type="3. Sem"
-				link="/skolemad"
-			/>
-
-			<Cardprojectright
-				src="Glitch.png"
+				src="musikloftet.png"
 				title="MUSIKLOFTET"
-				text="Lorem Ipsum"
 				type="3. Sem"
 				link="/musikloftet"
 			/>
 
-			<Cardprojectleft
-				src="SkoleMad.png"
-				title="UNGDOMSBYEN"
-				text="Lorem Ipsum"
-				type="2. Sem"
-				link="/dolah"
-			/>
+			<Cardprojectleft src="ungdomsbyen.png" title="UNGDOMSBYEN" type="2. Sem" link="/dolah" />
 
-			<Cardprojectright
-				src="Glitch.png"
-				title="TYPOGRAFI"
-				text="Lorem Ipsum"
-				type="3. Sem"
-				link="/dolah"
-			/>
+			<Cardprojectright src="spil.png" title="ANIMATION GAME" type="3. Sem" link="/dolah" />
 		</article>
 	</section>
 	<Prefooter knap1="CONTACT" knap2="ABOUT" />
