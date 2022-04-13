@@ -58,14 +58,14 @@
 	</article>
 	<article class="mb-20 md:mb-40">
 		<h3>PROCES OVERVIEW</h3>
-		<div class="md:grid grid-cols-3 gap-7 mx-3 md:mx-0">
-			<div class="mb-5 md:mb-0">
+		<div class="md:grid grid-cols-3 mx-3 md:mx-0">
+			<div class="mb-5 md:mb-0 md:mr-8">
 				<h4 class="pb-1">UX & Information Architecture</h4>
 				<li class="pb-2">Conceptual Sitemap</li>
 				<li class="pb-2">Detailed Sitemap</li>
 				<li class="pb-2">Purchaseflow</li>
 			</div>
-			<div class="mb-5 md:mb-0">
+			<div class="mb-5 md:mb-0 md:mr-8">
 				<h4 class="pb-1">Design System</h4>
 				<li class="pb-2">Componentbased design <br /> - SvelteKit</li>
 				<li class="pb-2">Figma: Design Manual <br /> - Sizes, colors, paddings etc.</li>

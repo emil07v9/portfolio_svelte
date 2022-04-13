@@ -5,33 +5,33 @@
 <section class="md:mx-20 lg:mx-40 xl:mx-60 mt-20">
 	<div class="slide-in-top-side">
 		<h1>KONTAKT</h1>
-		<div class="flex gap-5">
-			<hr class="flex self-center" />
+		<div class="flex">
+			<hr class="mr-3 flex self-center" />
 			<h3>Har du spørgsmål eller vil du i kontakt?</h3>
 		</div>
 	</div>
 	<article class="slide-in-bottom-side">
 		<h2 class="mt-10">Sådan kan jeg kontaktes</h2>
 		<article class="sm:grid grid-cols-3">
-			<div class="flex gap-2 info">
-				<img class="mail" src="mail.svg" alt="" />
+			<div class="flex info">
+				<img class="mail mr-3" src="mail.svg" alt="" />
 				<div>
-					<h3>Email</h3>
+					<h4>Email</h4>
 					<a href="mailto:emilie@webschultz.dk">emilie@webschultz</a>
 					<a class="block pt-1" href="mailto:emil07v9@stud.kea.dk">emil07v9@stud.kea.dk</a>
 				</div>
 			</div>
-			<div class="flex gap-2 info">
-				<img class="mobil" src="mobil.svg" alt="" />
+			<div class="flex info">
+				<img class="mobil mr-3" src="mobil.svg" alt="" />
 				<div>
-					<h3>Mobil</h3>
+					<h4>Mobil</h4>
 					<a href="tel:42423796">+45 42423796</a>
 				</div>
 			</div>
-			<div class="flex gap-2 info">
-				<img class="social" src="social.svg" alt="" />
+			<div class="flex info">
+				<img class="social mr-3" src="social.svg" alt="" />
 				<div>
-					<h3>LinkedIn</h3>
+					<h4>LinkedIn</h4>
 					<a href="www.linkedin.com/in/emiliekempelschultz">
 						<img class="linked" src="LI-in-Bug.png" alt="" /></a
 					>

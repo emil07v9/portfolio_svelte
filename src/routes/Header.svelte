@@ -238,7 +238,6 @@
 
 		ul {
 			display: flex;
-			/* gap: 2rem; */
 		}
 
 		article {

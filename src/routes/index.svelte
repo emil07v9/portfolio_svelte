@@ -15,11 +15,6 @@
 					PORTFOLIO!
 				</h5>
 			</div>
-			<!-- <div class="borderboks w-80 h-96 relative mt-10">
-				<div>
-					<img class=" w-80 absolute left-8 top-10" src="tegning.png" alt="" />
-				</div>
-			</div> -->
 		</article>
 	</section>
 	<section class="sectiontwo">
@@ -54,6 +49,7 @@
 					<h4>OTHER PROGRAMS USED</h4>
 					<p>Adobe Premiere Pro</p>
 					<p>Adobe InDesign</p>
+					<p>Adobe Audition</p>
 				</div>
 				<div class="pb-6">
 					<h4>CODING SKILLS</h4>

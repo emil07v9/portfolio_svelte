@@ -8,11 +8,11 @@
 	>
 </div>
 <section class="md:mx-20 lg:mx-40 xl:mx-60 mt-10">
-	<h1>MUSIKLOFTET</h1>
+	<h1>UNGDOMS-BYEN</h1>
 	<div class="md:flex space-x-2">
-		<p>3. sem</p>
+		<p>2. sem</p>
 		<hr class="flex self-center my-1" />
-		<p>UI & UX DESIGN / GRAPHIC DESIGN / WEB DEVELOPMENT</p>
+		<p>INFORMATIONARCHITECTURE / CMS-SYSTEMS / UX / GRAPHIC DESIGN / SEO</p>
 	</div>
 	<img class="w-full h-96 mt-10 mb-20 md:mb-40" src="placeholder.png" alt="" />
 	<article class="md:grid md:grid-cols-2 mb-20 md:mb-40">
@@ -21,12 +21,9 @@
 			<h3>INTRODUCTION</h3>
 		</div>
 		<p>
-			In this smaller project we were given the task to create a website for the fictional music
-			rehearsal room landlord, 'Musikloftet'. The website had to give a good overview of the
-			different services, Musikloftet had to offer, as well as visually reflect what type of place,
-			you could expect to meet. Furthermore the design had to be shaped around a list of values...
-			<br /> My group chose these three words: <br />
-			Immersion, flexibility and focus.
+			In this project we were given the task to develop a websolution that conveys
+			Ungdomsbyen/"Youthtowns" many offers in an easy and clear way. We had to make suggestions to
+			optimize the structure, design and SEO to ultimatly achieve a better userexperience.
 		</p>
 	</article>
 	<article class="md:grid grid-cols-2 mb-20 md:mb-40">
@@ -35,28 +32,27 @@
 			<h4 class="mb-4 mt-5 md:mt-0">PRJ / INFO</h4>
 			<div class="grid grid-cols-2 mb-2">
 				<p class="boxheadings">Duration</p>
-				<p>2 week</p>
+				<p>1 month</p>
 			</div>
 			<div class="grid grid-cols-2 mb-2">
 				<p class="boxheadings">Type</p>
 				<p>Group project</p>
 			</div>
+			<div class="grid grid-cols-2 mb-3">
+				<p class="boxheadings">My main focus</p>
+				<p>Research & analysis, informationarchitecture and SEO</p>
+			</div>
 			<div class="grid grid-cols-2 mb-2">
 				<p class="boxheadings">Programs etc.</p>
 				<p>
-					Figma (Prototyping etc), <br /> Adobe Illustrator (content)
+					Adobe Illustrator (Graphic elements), <br />
+					Google Page Speed Insight (SEO),<br /> Lighthouse (SEO),
+					<br /> Smush & Yoast (WP SEO)
 				</p>
-			</div>
-			<div class="grid grid-cols-2 mb-3">
-				<p class="boxheadings">My main focus</p>
-				<p>Idea development, <br /> Webdesign, <br /> Frontend Development</p>
 			</div>
 			<div class="grid grid-cols-2 mb-2">
 				<p class="boxheadings">Coding</p>
-				<p>
-					HTML <br />
-					Tailwind CSS
-				</p>
+				<p>CMS-system, <br /> PHP</p>
 			</div>
 		</div>
 	</article>
@@ -64,21 +60,26 @@
 		<h3>PROCES OVERVIEW</h3>
 		<div class="md:grid grid-cols-3 mx-3 md:mx-0">
 			<div class="mb-5 md:mb-0 md:mr-8">
-				<h4 class="pb-1">Design</h4>
-				<li class="pb-2">Moodboard</li>
-				<li class="pb-2">Styletile</li>
-				<li class="pb-2">Graphic Elements</li>
+				<h4 class="pb-1">Research & analysis</h4>
+				<li class="pb-2">Analysis of the current website <br /> - moodboards, styletile</li>
+				<li class="pb-2">Target group analysis <br /> - Personas & Empathy map</li>
+				<li class="pb-2">Business analysis <br /> - Golden Circle & Business Model Canvas</li>
+				<li class="pb-2">SWOT</li>
 			</div>
 			<div class="mb-5 md:mb-0 md:mr-8">
-				<h4 class="pb-1">Website</h4>
-				<li class="pb-2">Sitemap (IA)</li>
-				<li class="pb-2">Wireframing</li>
-				<li class="pb-2">Prototyping</li>
+				<h4 class="pb-1">UI & UX</h4>
+				<li class="pb-2">
+					Interaction development <br /> - Conceptual & detailed sitemaps, cardsorting & wireframes
+				</li>
+				<li class="pb-2">
+					Design <br /> - Moodboard, styletile, graphics & mockup
+				</li>
 			</div>
 			<div class="mb-5 md:mb-0">
-				<h4 class="pb-1">Test</h4>
-				<li class="pb-2">Usability test <br /> - Test of prototype</li>
-				<li class="pb-2">Usability test <br /> - Test of website</li>
+				<h4 class="pb-1">SEO</h4>
+				<li class="pb-2">Technical SEO <br /> - Image compression, metadescribtions etc.</li>
+				<li class="pb-2">Content SEO <br /> - Keywords & implementation</li>
+				<li class="pb-2">Linkbuilding <br /> - Potential partners</li>
 			</div>
 		</div>
 	</article>

@@ -57,14 +57,14 @@
 	</article>
 	<article class="mb-20 md:mb-40">
 		<h3>PROCES OVERVIEW</h3>
-		<div class="md:grid grid-cols-3 gap-7 mx-3 md:mx-0">
-			<div class="mb-5 md:mb-0">
+		<div class="md:grid grid-cols-3 mx-3 md:mx-0">
+			<div class="mb-5 md:mb-0 md:mr-8">
 				<h4 class="pb-1">Typography</h4>
 				<li class="pb-2">Research & moodboard</li>
 				<li class="pb-2">Sketching</li>
 				<li class="pb-2">Adobe Illustrator <br /> - finished drawing</li>
 			</div>
-			<div class="mb-5 md:mb-0">
+			<div class="mb-5 md:mb-0 md:mr-8">
 				<h4 class="pb-1">Content</h4>
 				<li class="pb-2">Adobe Photoshop <br /> - Gifs & photoshop</li>
 				<li class="pb-2">

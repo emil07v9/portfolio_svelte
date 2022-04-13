@@ -8,11 +8,11 @@
 	>
 </div>
 <section class="md:mx-20 lg:mx-40 xl:mx-60 mt-10">
-	<h1>MUSIKLOFTET</h1>
+	<h1>ANIMATION GAME</h1>
 	<div class="md:flex space-x-2">
-		<p>3. sem</p>
+		<p>1. sem</p>
 		<hr class="flex self-center my-1" />
-		<p>UI & UX DESIGN / GRAPHIC DESIGN / WEB DEVELOPMENT</p>
+		<p>ILLUSTRATING / ANIMATION DESIGN / JAVASCRIPT / HTML & CSS</p>
 	</div>
 	<img class="w-full h-96 mt-10 mb-20 md:mb-40" src="placeholder.png" alt="" />
 	<article class="md:grid md:grid-cols-2 mb-20 md:mb-40">
@@ -21,12 +21,9 @@
 			<h3>INTRODUCTION</h3>
 		</div>
 		<p>
-			In this smaller project we were given the task to create a website for the fictional music
-			rehearsal room landlord, 'Musikloftet'. The website had to give a good overview of the
-			different services, Musikloftet had to offer, as well as visually reflect what type of place,
-			you could expect to meet. Furthermore the design had to be shaped around a list of values...
-			<br /> My group chose these three words: <br />
-			Immersion, flexibility and focus.
+			In this project we were introduced to Javascript for the first time. Each we had to devise,
+			design, draw and finally code our own simpel "click"-game. Furthermore vi had to record our
+			own soundeffects, find fitting background music and implement these in the game.
 		</p>
 	</article>
 	<article class="md:grid grid-cols-2 mb-20 md:mb-40">
@@ -35,27 +32,24 @@
 			<h4 class="mb-4 mt-5 md:mt-0">PRJ / INFO</h4>
 			<div class="grid grid-cols-2 mb-2">
 				<p class="boxheadings">Duration</p>
-				<p>2 week</p>
+				<p>1 month</p>
 			</div>
 			<div class="grid grid-cols-2 mb-2">
 				<p class="boxheadings">Type</p>
-				<p>Group project</p>
+				<p>Individual project</p>
 			</div>
 			<div class="grid grid-cols-2 mb-2">
 				<p class="boxheadings">Programs etc.</p>
 				<p>
-					Figma (Prototyping etc), <br /> Adobe Illustrator (content)
+					Adobe Illustrator (spilfigurer, baggrunde etc.) <br /> Adobe Audition (lydeffekter)
 				</p>
-			</div>
-			<div class="grid grid-cols-2 mb-3">
-				<p class="boxheadings">My main focus</p>
-				<p>Idea development, <br /> Webdesign, <br /> Frontend Development</p>
 			</div>
 			<div class="grid grid-cols-2 mb-2">
 				<p class="boxheadings">Coding</p>
 				<p>
+					JavaScript <br />
 					HTML <br />
-					Tailwind CSS
+					CSS <br />
 				</p>
 			</div>
 		</div>
@@ -64,21 +58,22 @@
 		<h3>PROCES OVERVIEW</h3>
 		<div class="md:grid grid-cols-3 mx-3 md:mx-0">
 			<div class="mb-5 md:mb-0 md:mr-8">
-				<h4 class="pb-1">Design</h4>
-				<li class="pb-2">Moodboard</li>
-				<li class="pb-2">Styletile</li>
-				<li class="pb-2">Graphic Elements</li>
+				<h4 class="pb-1">Idea & koncept</h4>
+				<li class="pb-2">Concept development</li>
+				<li class="pb-2">Paperprototyping</li>
+				<li class="pb-2">Activitydiagram</li>
+				<li class="pb-2">State Machine Diagram</li>
 			</div>
 			<div class="mb-5 md:mb-0 md:mr-8">
-				<h4 class="pb-1">Website</h4>
-				<li class="pb-2">Sitemap (IA)</li>
-				<li class="pb-2">Wireframing</li>
-				<li class="pb-2">Prototyping</li>
+				<h4 class="pb-1">Design & implementation</h4>
+				<li class="pb-2">Moodboard</li>
+				<li class="pb-2">Sketching <br /> - Gamepages, backgrounds, characters</li>
+				<li class="pb-2">Finished drawings of sketches<br /> - Adobe Illustrator</li>
 			</div>
-			<div class="mb-5 md:mb-0">
-				<h4 class="pb-1">Test</h4>
-				<li class="pb-2">Usability test <br /> - Test of prototype</li>
-				<li class="pb-2">Usability test <br /> - Test of website</li>
+			<div class="mb-5 md:mb-0 md:mr-8">
+				<h4 class="pb-1">Soundeffects</h4>
+				<li class="pb-2">Recording</li>
+				<li class="pb-2">Editing in Audition</li>
 			</div>
 		</div>
 	</article>

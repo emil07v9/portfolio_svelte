@@ -58,8 +58,8 @@
 	</article>
 	<article class="mb-20 md:mb-40">
 		<h3>PROCES OVERVIEW</h3>
-		<div class="md:grid grid-cols-2 gap-7 mx-3 md:mx-0">
-			<div class="mb-5 md:mb-0">
+		<div class="md:grid grid-cols-2 mx-3 md:mx-0">
+			<div class="mb-5 md:mb-0 md:mr-8">
 				<h4 class="pb-1">Research & analysis</h4>
 				<li class="pb-2">Interview with client</li>
 				<li class="pb-2">Target group analysis <br /> - Personas & Empathy map</li>
@@ -83,13 +83,13 @@
 				<li class="pb-2">BERT (new site)</li>
 				<li class="pb-2">Heuristic inspection</li>
 			</div>
-			<div class="mb-5 md:mb-0">
+			<div class="mb-5 md:mb-0 md:mr-8 md:mt-5">
 				<h4 class="pb-1">Communication & content</h4>
 				<li class="pb-2">Content Strategy <br /> - SMART model & KPI's</li>
 				<li class="pb-2">Costumer Journeys</li>
 				<li class="pb-2">Video & images<br /> - Storyboard, shooting and editing</li>
 			</div>
-			<div class="mb-5 md:mb-0">
+			<div class="mb-5 md:mb-0 md:mt-5">
 				<h4 class="pb-1">SEO</h4>
 				<li class="pb-2">Technical SEO <br /> - Image compression, metadescribtions etc.</li>
 				<li class="pb-2">Content SEO <br /> - Keywords & implementation</li>

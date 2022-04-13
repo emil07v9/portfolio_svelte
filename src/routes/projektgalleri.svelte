@@ -21,9 +21,19 @@
 				link="/musikloftet"
 			/>
 
-			<Cardprojectleft src="ungdomsbyen.png" title="UNGDOMSBYEN" type="2. Sem" link="/dolah" />
+			<Cardprojectleft
+				src="ungdomsbyen.png"
+				title="UNGDOMSBYEN"
+				type="2. Sem"
+				link="/ungdomsbyen"
+			/>
 
-			<Cardprojectright src="spil.png" title="ANIMATION GAME" type="3. Sem" link="/dolah" />
+			<Cardprojectright
+				src="spil.png"
+				title="ANIMATION GAME"
+				type="1. Sem"
+				link="/animationsspil"
+			/>
 		</article>
 	</section>
 	<Prefooter knap1="CONTACT" knap2="ABOUT" />
