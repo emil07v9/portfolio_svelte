@@ -3,17 +3,23 @@
 	import Prefooter from './Prefooter.svelte';
 </script>
 
-<main>
-	<Hero />
-	<section class="md:mx-20 lg:mx-40 xl:mx-60">
-		<article class="flex justify-center text-center">
-			<div class="borderboks px-5 py-20">
-				<h3>HI!</h3>
-				<h3>MY NAME IS EMILIE SCHULTZ</h3>
-				<h5>
-					I'M A MULTIMEDIADESIGN STUDENT WITH A BIG INTEREST IN UX & UI DESIGN... <br /> WELCOME TO MY
-					PORTFOLIO!
-				</h5>
+<main id="#top">
+	<Hero anchor="#one" />
+	<section id="one" class="md:mx-20 lg:mx-40 xl:mx-60">
+		<article class="flex justify-center py-20">
+			<div class="md:grid grid-cols-5">
+				<div class="text-right col-span-2">
+					<h3>HI!</h3>
+					<h4>MY NAME IS EMILIE SCHULTZ</h4>
+				</div>
+				<hr class="rotate-90 self-center col-span-1" />
+				<div class="col-span-2">
+					<h5>
+						I'M A MULTIMEDIADESIGN STUDENT BASED IN COPENHAGEN (DENMARK) WITH A GREAT INTEREST IN UX
+						& UI DESIGN... <br />
+						WELCOME TO MY PORTFOLIO!
+					</h5>
+				</div>
 			</div>
 		</article>
 	</section>
@@ -69,13 +75,18 @@
 		</article>
 	</section>
 
-	<Prefooter knap1="PROJECTS" knap2="ABOUT" />
+	<Prefooter knap1="PROJECTS" link1="/projects" knap2="ABOUT" link2="/about" />
+
 	<div class="flex justify-end mt-10">
-		<a class="rotate-180 mr-5" href="#"><img class="puls" src="pil.svg" alt="" /></a>
+		<a class="rotate-180 mr-5" href="#top"><img class="puls" src="pil.svg" alt="" /></a>
 	</div>
 </main>
 
 <style>
+	hr {
+		background-color: var(--nav-color);
+		height: 2px;
+	}
 	.borderboks {
 		border: 2px solid var(--nav-color);
 	}

@@ -10,14 +10,14 @@
 		<label for="active" class="close" />
 		<div class="wrapper">
 			<ul>
-				<li class:active={$page.url.pathname === '/projektgalleri'}>
-					<a sveltekit:prefetch href="/projektgalleri">PROJECTS</a>
+				<li class:active={$page.url.pathname === '/projects'}>
+					<a sveltekit:prefetch href="/projects">PROJECTS</a>
 				</li>
 				<li class:active={$page.url.pathname === '/about'}>
 					<a sveltekit:prefetch href="/about">ABOUT</a>
 				</li>
-				<li class:active={$page.url.pathname === '/kontakt'}>
-					<a sveltekit:prefetch href="/kontakt">CONTACT</a>
+				<li class:active={$page.url.pathname === '/contact'}>
+					<a sveltekit:prefetch href="/contact">CONTACT</a>
 				</li>
 			</ul>
 		</div>
@@ -29,14 +29,14 @@
 		</figure>
 		<nav>
 			<ul class="mt-5">
-				<li class:active={$page.url.pathname === '/projektgalleri'}>
-					<a sveltekit:prefetch href="/projektgalleri">PROJECTS</a>
+				<li class:active={$page.url.pathname === '/projects'}>
+					<a sveltekit:prefetch href="/projects">PROJECTS</a>
 				</li>
 				<li class:active={$page.url.pathname === '/about'}>
 					<a sveltekit:prefetch href="/about">ABOUT</a>
 				</li>
-				<li class:active={$page.url.pathname === '/kontakt'}>
-					<a sveltekit:prefetch href="/kontakt">CONTACT</a>
+				<li class:active={$page.url.pathname === '/contact'}>
+					<a sveltekit:prefetch href="/contact">CONTACT</a>
 				</li>
 			</ul>
 		</nav>

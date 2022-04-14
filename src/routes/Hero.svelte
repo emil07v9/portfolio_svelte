@@ -1,3 +1,7 @@
+<script>
+	export let anchor;
+</script>
+
 <article>
 	<div class="mt-20 lg:mt-20">
 		<div class="grid grid-cols-3 md:grid-cols-6">
@@ -17,7 +21,9 @@
 			</div>
 		</div>
 		<div class="flex justify-center lg:mt-5 sm:mt-10 sm:pt-10">
-			<a class="slide-in-bottom" href="#"><img class="puls" src="pil.svg" alt="" /></a>
+			<a class="slide-in-bottom" sveltekit:prefetch href={anchor}
+				><img class="puls" src="pil.svg" alt="" /></a
+			>
 		</div>
 	</div>
 </article>

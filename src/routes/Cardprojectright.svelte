@@ -6,8 +6,9 @@
 	import { page } from '$app/stores';
 </script>
 
-<section class="md:grid grid-cols-2 gap-5">
-	<div class="md:grid grid-rows-3 grid-cols-1">
+<section class="md:grid grid-cols-2 grid-rows-1 gap-5">
+	<img class="col-start-2 row-start-1" {src} alt="" />
+	<div class="md:grid grid-rows-3 grid-cols-1 col-start-1 row-start-1">
 		<h3>{title}</h3>
 		<div>
 			<div class="badge flex space-x-2">
@@ -22,7 +23,6 @@
 			>
 		</div>
 	</div>
-	<img {src} alt="" />
 </section>
 
 <style>
