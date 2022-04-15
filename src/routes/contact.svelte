@@ -4,14 +4,14 @@
 
 <section class="md:mx-20 lg:mx-40 xl:mx-60 mt-20">
 	<div class="slide-in-top-side">
-		<h1>KONTAKT</h1>
+		<h1>CONTACT</h1>
 		<div class="flex">
-			<hr class="mr-3 flex self-center" />
-			<h3>Har du spørgsmål eller vil du i kontakt?</h3>
+			<hr class="mr-3 flex mt-5 md:mt-0 md:self-center" />
+			<h3>Do you have any questions or do you want to contact me?</h3>
 		</div>
 	</div>
 	<article class="slide-in-bottom-side">
-		<h2 class="mt-10">Sådan kan jeg kontaktes</h2>
+		<h2 class="mt-10">This i how you can reach me</h2>
 		<article class="sm:grid grid-cols-3">
 			<div class="flex info">
 				<img class="mail mr-3" src="mail.svg" alt="" />
@@ -24,7 +24,7 @@
 			<div class="flex info">
 				<img class="mobil mr-3" src="mobil.svg" alt="" />
 				<div>
-					<h4>Mobil</h4>
+					<h4>Phone</h4>
 					<a href="tel:42423796">+45 42423796</a>
 				</div>
 			</div>

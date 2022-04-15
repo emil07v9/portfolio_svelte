@@ -9,15 +9,15 @@
 		<article class="flex justify-center py-20">
 			<div class="md:grid grid-cols-5">
 				<div class="text-right col-span-2">
-					<h3>HI!</h3>
-					<h4>MY NAME IS EMILIE SCHULTZ</h4>
+					<h3>HI & WELCOME</h3>
+					<h4>TO MY PORTFOLIO</h4>
 				</div>
 				<hr class="rotate-90 self-center col-span-1" />
 				<div class="col-span-2">
 					<h5>
-						I'M A MULTIMEDIADESIGN STUDENT BASED IN COPENHAGEN (DENMARK) WITH A GREAT INTEREST IN UX
-						& UI DESIGN... <br />
-						WELCOME TO MY PORTFOLIO!
+						MY NAME IS EMILIE SCHULTZ & I'M A MULTIMEDIADESIGN STUDENT WITH A GREAT INTEREST IN UX &
+						UI DESIGN... <br />
+						TAKE A LOOK AROUND!
 					</h5>
 				</div>
 			</div>
