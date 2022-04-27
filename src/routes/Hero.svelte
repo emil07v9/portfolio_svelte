@@ -6,7 +6,7 @@
 	<div class="mt-20 lg:mt-20">
 		<div class="grid grid-cols-3 md:grid-cols-6">
 			<h5 class="hidden header">
-				EMILIE SCHULTZ <hr class="mt-2" />
+				EMILIE SCHULTZ <hr />
 				COPENHAGEN, DENMARK
 			</h5>
 			<div class="col-start-1 col-span-3 mx-5 md:col-start-3 md:col-span-2 gap-10">
