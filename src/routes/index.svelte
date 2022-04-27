@@ -17,7 +17,7 @@
 					<h5>
 						MY NAME IS EMILIE SCHULTZ & I'M A MULTIMEDIADESIGN STUDENT WITH A GREAT INTEREST IN UX &
 						UI DESIGN... <br />
-						TAKE A LOOK AROUND!
+						TAKE A LOOK AROUND !
 					</h5>
 				</div>
 			</div>

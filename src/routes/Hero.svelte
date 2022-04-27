@@ -15,7 +15,7 @@
 			</div>
 			<div class="grid grid-rows-3 md:col-span-2">
 				<div class="flex md:row-start-3 mx-5">
-					<hr class="mr-3 self-center md:self-end mb-2 slide-in-left" />
+					<hr class="mr-3 self-center mb-2 slide-in-left" />
 					<h5 class="self-center md:self-end typing-demo1">DIGITAL DESIGNER</h5>
 				</div>
 			</div>
@@ -29,10 +29,6 @@
 </article>
 
 <style>
-	hr {
-		display: flex;
-		justify-self: center;
-	}
 	h1 {
 		color: var(--nav-color);
 	}
