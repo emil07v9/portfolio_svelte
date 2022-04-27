@@ -30,7 +30,8 @@
 
 <style>
 	hr {
-		align-self: center;
+		display: flex;
+		justify-self: center;
 	}
 	h1 {
 		color: var(--nav-color);
