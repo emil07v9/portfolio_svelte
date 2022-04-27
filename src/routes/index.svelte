@@ -7,7 +7,7 @@
 	<Hero anchor="#one" />
 	<section id="one" class="md:mx-20 lg:mx-40 xl:mx-60">
 		<article class="flex justify-center py-20">
-			<div class="md:grid grid-cols-5">
+			<div class="grid grid-cols-5">
 				<div class="text-right col-span-2">
 					<h3>HI & WELCOME</h3>
 					<h4>TO MY PORTFOLIO</h4>
@@ -17,7 +17,7 @@
 					<h5>
 						MY NAME IS EMILIE SCHULTZ & I'M A MULTIMEDIADESIGN STUDENT WITH A GREAT INTEREST IN UX &
 						UI DESIGN... <br />
-						TAKE A LOOK AROUND !
+						TAKE A LOOK AROUND!
 					</h5>
 				</div>
 			</div>

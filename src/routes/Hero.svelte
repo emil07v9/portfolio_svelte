@@ -6,7 +6,7 @@
 	<div class="mt-20 lg:mt-20">
 		<div class="grid grid-cols-3 md:grid-cols-6">
 			<h5 class="hidden header">
-				EMILIE SCHULTZ <hr />
+				EMILIE SCHULTZ <hr class="flex justify-center" />
 				COPENHAGEN, DENMARK
 			</h5>
 			<div class="col-start-1 col-span-3 mx-5 md:col-start-3 md:col-span-2 gap-10">
@@ -15,7 +15,7 @@
 			</div>
 			<div class="grid grid-rows-3 md:col-span-2">
 				<div class="flex md:row-start-3 mx-5">
-					<hr class="mr-3 self-center mb-2 slide-in-left" />
+					<hr class="mr-3 mt-2 mb-2 slide-in-left" />
 					<h5 class="self-center md:self-end typing-demo1">DIGITAL DESIGNER</h5>
 				</div>
 			</div>

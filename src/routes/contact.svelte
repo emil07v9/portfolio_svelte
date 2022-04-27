@@ -6,12 +6,12 @@
 	<div class="slide-in-top-side">
 		<h1>CONTACT</h1>
 		<div class="flex">
-			<hr class="mr-3 flex mt-5 md:mt-0 md:self-center" />
+			<hr class="mr-3 flex mt-5 md:mt-7" />
 			<h3>Do you have any questions or do you want to contact me?</h3>
 		</div>
 	</div>
 	<article class="slide-in-bottom-side">
-		<h2 class="mt-10">This i how you can reach me</h2>
+		<h3 class="mt-10">This i how you can reach me...</h3>
 		<article class="sm:grid grid-cols-3">
 			<div class="flex info">
 				<img class="mail mr-3" src="mail.svg" alt="" />
