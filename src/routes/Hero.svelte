@@ -29,6 +29,9 @@
 </article>
 
 <style>
+	hr {
+		align-self: center;
+	}
 	h1 {
 		color: var(--nav-color);
 	}
