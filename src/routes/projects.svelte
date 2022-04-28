@@ -2,8 +2,10 @@
 	import Cardprojectleft from './Cardprojectleft.svelte';
 	import Cardprojectright from './Cardprojectright.svelte';
 	import Prefooter from './Prefooter.svelte';
+	import Header from './Header.svelte';
 </script>
 
+<Header />
 <main id="top">
 	<section class="mt-20 md:mx-20 lg:mx-40 xl:mx-60">
 		<h1 class="slide-in-top-side">PROJECTS</h1>

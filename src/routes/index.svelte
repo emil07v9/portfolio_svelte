@@ -1,8 +1,10 @@
 <script>
 	import Hero from './Hero.svelte';
 	import Prefooter from './Prefooter.svelte';
+	import Header from './Header.svelte';
 </script>
 
+<Header />
 <main id="#top">
 	<Hero anchor="#one" />
 	<section id="one" class="md:mx-20 lg:mx-40 xl:mx-60">

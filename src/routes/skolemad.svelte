@@ -1,7 +1,9 @@
 <script>
 	import Prefooter from './Prefooter.svelte';
+	import Header from './Header.svelte';
 </script>
 
+<Header />
 <main id="top">
 	<div class="ml-2 md:ml-10">
 		<a sveltekit:prefetch href="/projects"

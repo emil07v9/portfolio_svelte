@@ -1,7 +1,9 @@
 <script>
 	import Prefooter from './Prefooter.svelte';
+	import Header from './Header.svelte';
 </script>
 
+<Header />
 <section class="md:mx-20 lg:mx-40 xl:mx-60 mt-20">
 	<div class="slide-in-top-side">
 		<h1>CONTACT</h1>
