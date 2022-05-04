@@ -86,7 +86,7 @@ a {
 	color: var(--nav-color);
 }
 
-body {
+html {
 	cursor: url(cursor.svg), auto;
 }
 
